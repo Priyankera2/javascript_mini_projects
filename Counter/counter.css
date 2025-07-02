@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 6em;
+    margin-top: 20px;
+}
+div{
+    display:flex;
+    gap:20px
+    
+}
+button{
+    background-color: blueviolet;
+    border: none;
+    border-radius:0.4cm;
+    cursor: pointer;
+   width: 100px;
+   height:40px;
+  transition: background-color 0.3s;
+}
+button:hover{
+    background-color: yellow;
+}
+
