@@ -16,3 +16,8 @@ localStorage.setItem("count",count);
 //alert(`current counter is ${count}`);
 
 }
+document.getElementById("reset").onclick=function(){
+    count=0;
+    c.textContent=count;
+    localStorage.setItem("count",count);
+}
