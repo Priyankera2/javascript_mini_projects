@@ -1,0 +1,16 @@
+body{
+   display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(75, 8, 129);
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 0.4cm;
+    font-size: larger;
+    font-weight: bold;
+    color: yellow;
+}
